@@ -7,9 +7,7 @@
 body,
 html {
   background: #eee;
-  font-family: sans-serif;
+  font-family: 14px Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  height: 100%;
-  width: 100%;
 }
