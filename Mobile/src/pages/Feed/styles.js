@@ -1,55 +1,51 @@
 import styled from 'styled-components/native';
 
-
 export const Container = styled.View`
-flex: 1;
+  flex: 1;
 `;
 
 export const FeedItem = styled.View`
-margin-top: 20px;
-`
+  margin-top: 20px;
+`;
 export const FeedItemHeader = styled.View`
-padding-horizontal: 15px;
-flex-direction: row;
-justify-content: space-between;
-align-items: center
-`
-export const UserInfo = styled.View`
-
-`
+  padding-horizontal: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const UserInfo = styled.View``;
 export const Author = styled.Text`
-font-size: 14px;
+  font-size: 14px;
   color: #000;
-
-`
+`;
 export const Place = styled.Text`
-font-size: 12px;
+  font-size: 12px;
   color: #666;
   margin-top: 2px;
-
-`
+`;
 export const FeedImage = styled.Image`
   width: 100%;
   height: 400px;
   margin-vertical: 20px;
-`
+`;
 export const FeedImageFooter = styled.View`
   padding-horizontal: 15px;
-`
+`;
 export const Actions = styled.View`
-flex-direction: row;
-`
+  flex-direction: row;
+`;
 export const Action = styled.TouchableOpacity`
-margin-right: 8px;`;
-export const Like  = styled.Text`
-margin-top: 15px;
-font-weight: bold;
-color: #000
-`
+  margin-right: 8px;
+`;
+export const Like = styled.Text`
+  margin-top: 15px;
+  font-weight: bold;
+  color: #000;
+`;
 export const Description = styled.Text`
   line-height: 18px;
-  color: #000
-`
+  color: #000;
+`;
 export const HashTags = styled.Text`
-color: #7159c1
-`
+  color: #7159c1;
+`;
